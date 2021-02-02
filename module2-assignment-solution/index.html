@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Assignment Solution for Module 2 </title>
+		<style>
+
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				font-family:'Brush Script MT', cursive, sans-serif;
+			}
+			h1{
+				text-align: center;
+				font-size:175%;
+			}
+
+			section{
+				background-color: grey;
+				padding: 0px;
+				margin:2.0825%;
+				border: 3px solid black;
+				float:left;
+			}
+
+			div.title{
+				font-size:125%;
+				float:right;
+				padding:1px 15px 5px 15px;
+				margin:0px 0px 1px 0px;
+				border-bottom: 3px black solid;
+				text-align: center;
+				border-left:3px black solid;
+
+			}
+
+			.pink{
+				background-color:pink;
+			}
+
+			.red{
+				background-color:red;
+				color:white;
+			}
+
+			.yellow{
+				background-color:yellow;
+			}
+
+			div.text{
+				clear:right;
+				padding:5px;
+			}
+
+			@media(min-width:992px ){
+				.medium_four_col{
+					width:29.165%;
+				}
+			}
+
+
+			@media(min-width:768px ) and (max-width:991px){
+
+				.tablet_two_col{
+					width:45.835%;
+				}
+
+				.tablet_one_col{
+					width:95.835%;
+				}
+			}
+
+			@media(max-width:767px){
+				.mobile_one_col{
+					width:95.835%;
+				}
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<h1> Our Menu </h1>
+		<section class="medium_four_col tablet_two_col mobile_one_col">
+			<div class = "title pink"> Chicken </div>
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+		</section>
+
+		<section class="medium_four_col tablet_two_col mobile_one_col">
+			<div class = "title red"> Beef </div>
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+		</section>
+
+		<section class="medium_four_col tablet_one_col mobile_one_col">
+			<div class = "title yellow">Sushi </div>
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+		</section>
+	</body>
+</html>
