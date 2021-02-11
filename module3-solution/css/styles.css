@@ -1,0 +1,63 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header-nav{
+	background-color:grey;
+	border-bottom:2px solid black;
+}
+
+nav .container-fluid{
+	padding:0;
+}
+.navbar-default .navbar-brand{
+	color:black;
+	padding-top:15px;
+	padding-left:0px;
+	font-size:30px;
+}
+
+#collapsable-nav{
+	background-color:white;
+	clear:both;
+	border:0;
+}
+
+#nav-list{
+	color:black;
+	padding:0px;
+	margin:0px;
+
+}
+
+#nav-list div{
+	height:45px;
+	text-align: center;
+	position:relative;
+	border-top:2px solid black;
+
+}
+
+h2{
+	padding:15px;
+	text-align: center;
+	font-size:2em;
+}
+
+#main-content{
+	color:black;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:15px;
+	background-color:gray
+}
+
+#main-content section div{
+	font-size:1.5em;
+}
+
+#header-nav button.navbar-toggle, #header-nav .icon-bar{  /*Specificity i guess*/
+	border:1px solid black;
+}
+
+
